@@ -1,0 +1,114 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+body #main .row content #parallax-1 {
+  background: url(../img/parallax/parallax-img1.jpg) repeat fixed 100%; }
+  body #main .row content #parallax-1 #info {
+    padding: 184px 0 160px 0; }
+    body #main .row content #parallax-1 #info .container .row .col-md-9 h1 {
+      font-size: 70px;
+      line-height: 70px;
+      color: #99C052;
+      padding-bottom: 30px; }
+    body #main .row content #parallax-1 #info .container .row .col-md-9 p {
+      text-transform: uppercase;
+      font-size: 40px;
+      font-weight: 300;
+      line-height: 40px; }
+    body #main .row content #parallax-1 #info .container .row .col-md-3 a {
+      padding: 62px 50px 0 50px;
+      width: 200px;
+      height: 200px;
+      background: #99c038 !important;
+      border-radius: 50%;
+      box-sizing: border-box; }
+body #main .row content #banner {
+  margin: 85px 0;
+  position: relative; }
+  body #main .row content #banner .container {
+    position: relative; }
+    body #main .row content #banner .container .row .col-md-3 {
+      padding: 0px; }
+      body #main .row content #banner .container .row .col-md-3 .banners {
+        margin-left: 30px; }
+        body #main .row content #banner .container .row .col-md-3 .banners .pic .img {
+          width: 170px;
+          height: 170px;
+          border-radius: 50%;
+          margin: 0 auto;
+          overflow: hidden;
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+          transition: 0.4s; }
+          body #main .row content #banner .container .row .col-md-3 .banners .pic .img:hover {
+            box-shadow: 0 0 0 15px rgba(0, 0, 0, 0.2); }
+        body #main .row content #banner .container .row .col-md-3 .banners .headContent {
+          background: #a1a1a2;
+          padding: 121px 20px 40px 20px;
+          margin: -84px 0 0; }
+          body #main .row content #banner .container .row .col-md-3 .banners .headContent h1 {
+            padding: 50px 0;
+            font-size: 30px;
+            line-height: 30px;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 0;
+            margin: 0; }
+        body #main .row content #banner .container .row .col-md-3 .banners .content {
+          background: #f0f1f1;
+          padding: 43px 15px 46px 38px; }
+        body #main .row content #banner .container .row .col-md-3 .banners .readMore a {
+          padding: 18px 30px;
+          background: grey;
+          display: inline-block;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: #fff;
+          font-size: 14px;
+          line-height: 23px; }
+body #main .row content #parallax-2 {
+  background: url(../img/parallax/parallax-img2.jpg) repeat fixed 100%; }
+  body #main .row content #parallax-2 #space .container .row .parallax .centered {
+    padding: 0 185px;
+    padding-top: 115px;
+    padding-bottom: 100px; }
+    body #main .row content #parallax-2 #space .container .row .parallax .centered h1 {
+      width: 100%;
+      font-size: 40px;
+      text-align: center; }
+      body #main .row content #parallax-2 #space .container .row .parallax .centered h1 strong {
+        width: 100%;
+        text-align: center;
+        color: #99c038;
+        font-weight: inherit;
+        text-transform: uppercase; }
+    body #main .row content #parallax-2 #space .container .row .parallax .centered h2 {
+      font: normal 20px/25px Open Sans;
+      text-transform: uppercase;
+      margin: 5px 0 11px 0; }
+    body #main .row content #parallax-2 #space .container .row .parallax .centered p {
+      text-align: center;
+      color: #bbbaba;
+      font-size: 14px;
+      margin-bottom: 56px; }
+body #main .row content #parallax-3 {
+  padding: 114px 0 126px;
+  background: url(../img/parallax/parallax-img3.jpg) repeat fixed 100%;
+  background-size: auto 100%; }
+  body #main .row content #parallax-3 #work .container .row h1 {
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 15px; }
+  body #main .row content #parallax-3 #work .container .row h2 {
+    width: 60%;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 200; }
+body #main .row footer {
+  padding: 130px 0 117px 0;
+  background: url(../img/parallax/body-img.jpg) repeat fixed 100%; }
+
+/*# sourceMappingURL=custumer.css.map */

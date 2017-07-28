@@ -1,0 +1,161 @@
+$color-green:#99c038;
+$color-grey:rgb(161,161,162);
+body{
+	.container-fluid{
+		.row{
+			#header{
+
+			}
+			#slider{
+
+			}
+			#info{
+				.container{
+					.row{
+						.col-md-10{
+							h1{
+
+							}
+							p{
+
+							}
+						}
+						.col-md-2{
+							a{
+
+							}
+						}
+					}
+				}
+			}
+			#banner{
+				position:relative;
+				
+				.container{
+					position:relative;
+					.row{
+						.col-md-3{
+							padding:0px;
+							.banners{
+								// position: re;
+								// right: 0;
+
+								margin-left:30px;
+								.pic{
+									.img{
+										width: 170px;
+										height: 170px;
+										border-radius: 50%;
+										margin: 0 auto;
+										overflow: hidden;
+										box-shadow:0 0 0 0 rgba(0,0,0,0.2);
+										transition: 0.4s;
+										&:hover{
+											box-shadow:0 0 0 15px rgba(0,0,0,0.2);
+										}
+										a{
+
+										}
+									}
+								}
+								.headContent{
+									background: $color-grey;
+									padding:121px 20px 40px 20px;
+									margin: -84px 0 0 ;
+									h1{
+										padding: 50px 0;
+										font-size: 30px;
+										// line-height: 30;
+										color: #fff;
+										text-transform: uppercase;
+										text-align: center;
+										padding:0;
+										margin: 0;
+										// font-weight: 300;
+									}
+								}
+								.content{
+									background: #f0f1f1;
+									padding: 43px 15px 46px 38px;
+
+								}
+								.readMore{
+									
+									a{
+										padding:18px 30px;
+										background: grey;								
+										display: inline-block;
+										text-transform: uppercase;
+										text-decoration: none;
+										color: #fff;
+										font-size: 14px;
+										line-height: 23px;
+
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			#space{
+				.container{
+					.row{
+						.parallax{
+							.centered{
+								padding:0 181px;
+								// text-align: center;
+								h1{
+									width: 100%;
+									font-size: 40px;
+									text-align:center;
+									
+									strong{
+										width: 100%;
+										text-align: center;
+										color:#99c038;
+										font-weight: inherit;
+										text-transform: uppercase;
+
+									}
+								}
+								h2{
+									font:normal 20px/25px Open Sans;
+									text-transform: uppercase;
+									margin: 5px 0 11px 0;
+								}
+								p{
+									text-align: center;
+									color: #bbbaba;
+									font-size: 14px;
+									margin-bottom: 56px;
+								}
+								a{
+									font-size: 15px;
+									line-height: 15px;
+									padding:34px 25px 0 25px;
+									background: red;
+									border-radius:100%;
+									&:after{
+										width: 100px;
+										height: 100px;
+										background: grey;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			#abotUs{
+
+			}
+			#works{
+
+			}
+			#footer{
+
+			}
+		}
+	}
+}	
