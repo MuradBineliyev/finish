@@ -6,23 +6,49 @@ body #main .row content #parallax-1 {
   background: url(../img/parallax/parallax-img1.jpg) repeat fixed 100%; }
   body #main .row content #parallax-1 #info {
     padding: 184px 0 160px 0; }
-    body #main .row content #parallax-1 #info .container .row .col-md-9 h1 {
-      font-size: 70px;
-      line-height: 70px;
-      color: #99C052;
-      padding-bottom: 30px; }
-    body #main .row content #parallax-1 #info .container .row .col-md-9 p {
-      text-transform: uppercase;
-      font-size: 40px;
-      font-weight: 300;
-      line-height: 40px; }
-    body #main .row content #parallax-1 #info .container .row .col-md-3 a {
-      padding: 62px 50px 0 50px;
-      width: 200px;
-      height: 200px;
-      background: #99c038 !important;
-      border-radius: 50%;
-      box-sizing: border-box; }
+    body #main .row content #parallax-1 #info .container .row {
+      position: relative; }
+      body #main .row content #parallax-1 #info .container .row .col-md-9 h1 {
+        margin: 0;
+        font-size: 70px;
+        line-height: 70px;
+        color: #99C052;
+        padding-bottom: 30px; }
+      body #main .row content #parallax-1 #info .container .row .col-md-9 p {
+        margin-bottom: 12;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 40px;
+        color: #bbbbbb; }
+      body #main .row content #parallax-1 #info .container .row .col-md-3 {
+        position: relative;
+        right: 0;
+        bottom: 0; }
+        body #main .row content #parallax-1 #info .container .row .col-md-3 .cricle {
+          width: 200px;
+          height: 200px;
+          background: #99c038 !important;
+          border-radius: 50%;
+          padding: 62px 50px 0 50px;
+          box-sizing: border-box;
+          display: inline-block;
+          position: absolute;
+          right: 0;
+          box-sizing: border-box;
+          box-shadow: 0 0 0 0 black;
+          transition: .4s; }
+          body #main .row content #parallax-1 #info .container .row .col-md-3 .cricle:hover {
+            box-shadow: 0 0 0 20px black;
+            background: #123456; }
+        body #main .row content #parallax-1 #info .container .row .col-md-3 a {
+          font-size: 40px;
+          line-height: 40px;
+          font-weight: 300;
+          color: #fff;
+          text-transform: uppercase;
+          text-decoration: none;
+          text-align: center; }
 body #main .row content #banner {
   margin: 85px 0;
   position: relative; }
